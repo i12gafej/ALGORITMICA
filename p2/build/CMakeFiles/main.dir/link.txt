@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/funcionesBasicas.cpp.o CMakeFiles/main.dir/medioNivel.cpp.o CMakeFiles/main.dir/quicksort.cpp.o -o main 
