@@ -153,6 +153,30 @@ apartado1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/apartado1.cpp.s
 .PHONY : apartado1.cpp.s
 
+apartado2.o: apartado2.cpp.o
+.PHONY : apartado2.o
+
+# target to build an object file
+apartado2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/apartado2.cpp.o
+.PHONY : apartado2.cpp.o
+
+apartado2.i: apartado2.cpp.i
+.PHONY : apartado2.i
+
+# target to preprocess a source file
+apartado2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/apartado2.cpp.i
+.PHONY : apartado2.cpp.i
+
+apartado2.s: apartado2.cpp.s
+.PHONY : apartado2.s
+
+# target to generate assembly for a file
+apartado2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/apartado2.cpp.s
+.PHONY : apartado2.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... apartado1.o"
 	@echo "... apartado1.i"
 	@echo "... apartado1.s"
+	@echo "... apartado2.o"
+	@echo "... apartado2.i"
+	@echo "... apartado2.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

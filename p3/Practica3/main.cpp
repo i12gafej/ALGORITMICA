@@ -1,8 +1,9 @@
 #include "apartado1.hpp"
+#include "apartado2.hpp"
 #include <iostream>
 
 using namespace std;
-//usando division entera se puede resolver con un esquema for
+
 void problemaCambio();
 
 void problemaMochila();
@@ -27,7 +28,7 @@ int main(){
                 problemaCambio();
                 break;
             case 2:
-                //problemaMochila();
+                problemaMochila();
                 break;
         }
     }
