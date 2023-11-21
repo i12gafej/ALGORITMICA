@@ -7,12 +7,14 @@
 #include <string.h>
 #include <fstream>
 #include <algorithm>
+#include <unistd.h>
 
 void problemaMochila(){
     vector<Material> materiales;
     vector<MaterialUsado> solucion;
     float volumen;
 
+    system("clear");
     cout << "Introduzca el volumen de la mochila: ";
     cin >> volumen;
     cargarMateriales(materiales, "materialesmochila.txt");
@@ -50,9 +52,16 @@ void mochila(float volumenMochila, vector<Material> &materiales, vector<Material
 }
 void escribirSolucion(vector<MaterialUsado> &solucion){
     float total = 0.0;
+    int volumen_usado = 0;
+    cout << "----------------------------------"<<endl;
     for(auto i = solucion.begin(); i != solucion.end(); i++){
-        total += i->getMaterial().getPrecio()*i->getVolumenUsado();
-        cout << "Material <"<<i->getMaterial().getEtiqueta()<<"> con volumen "<<i->getVolumenUsado()<<" tiene un precio de "<<i->getMaterial().getPrecio()*i->getVolumenUsado()<<endl;
+        volumen_usado = 0;
+        if(i->getVolumenUsado() > i->getMaterial().getVolumen())
+            volumen_usado = i->getMaterial().getVolumen();
+        else
+            volumen_usado = i->getVolumenUsado();
+        cout << "Material <"<<i->getMaterial().getEtiqueta()<<"> usa "<<volumen_usado<<" unidades volumentricas"<<endl;
+        total += volumen_usado*i->getMaterial().getPrecio();
     }
     cout << "El valor total en la mochila es "<<total<<" unidades monetarias"<<endl;
 }

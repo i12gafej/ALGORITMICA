@@ -10,8 +10,9 @@ void problemaCambio(){
     vector<Moneda> sistemaMonetario;
     vector<int> solucion;
     int centimos;
+    system("clear");
 
-    cout << "Introduce la cantidad a cambiar en centimos" << endl;
+    cout << "Introduce la cantidad a cambiar en centimos: ";
     cin >> centimos;
 
     cargarSistemaMonetario(sistemaMonetario, "sistemamonetario.txt");

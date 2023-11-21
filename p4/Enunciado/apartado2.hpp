@@ -8,6 +8,6 @@ using namespace std;
 
 
 void cargarMateriales(vector<Material> &materiales, const char *nombreFichero);
-void mochila(float volumenMochila, vector<Material> &materiales, vector<MaterialUsado>
-&solucion);
+void mochila(float volumenMochila, vector<Material> &materiales, vector<vector <double>>& matrizEstados);
+void obtenerSolucion(vector<vector<double>>& matrizEstados, vector<Material>& materiales, vector<MaterialUsado> &solucion);
 void escribirSolucion(vector<MaterialUsado> &solucion);

@@ -1,9 +1,9 @@
 CMakeFiles/main.dir/apartado2.cpp.o: \
- /home/yabiel/Documents/ALGORITMICA/p3/Practica3/apartado2.cpp \
+ /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/apartado2.cpp \
  /usr/include/stdc-predef.h \
- /home/yabiel/Documents/ALGORITMICA/p3/Practica3/apartado2.hpp \
- /home/yabiel/Documents/ALGORITMICA/p3/Practica3/materialUsado.hpp \
- /home/yabiel/Documents/ALGORITMICA/p3/Practica3/material.hpp \
+ /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/apartado2.hpp \
+ /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/materialUsado.hpp \
+ /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/material.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -176,11 +176,4 @@ CMakeFiles/main.dir/apartado2.cpp.o: \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
- /usr/include/c++/11/pstl/execution_defs.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h
+ /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/limits
