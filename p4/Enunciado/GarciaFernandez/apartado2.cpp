@@ -57,7 +57,6 @@ void mochila(float volumenMochila, vector<Material> &materiales, vector<vector <
             }
         }
     }
-
 }
 void obtenerSolucion(vector<vector<double>>& matrizEstados, vector<Material>& materiales, vector<MaterialUsado> &solucion){
     int i = matrizEstados.size() - 1, j = matrizEstados[0].size() - 1;
@@ -79,8 +78,7 @@ void obtenerSolucion(vector<vector<double>>& matrizEstados, vector<Material>& ma
         }
         else if(i == 0){ 
 
-            if(matrizEstados[0][j] == matrizEstados[0][j - materiales[i].getVolumen()] + materiales[i].getPrecio()*materiales[i].getVolumen() || 
-            (matrizEstados[0][j] == matrizEstados[0][j - materiales[i].getVolumen()])&& (matrizEstados[0][j] != 0) && matrizEstados[0][j - materiales[i].getVolumen()] != 0){
+            if(matrizEstados[0][j] == matrizEstados[0][j - materiales[i].getVolumen()] + materiales[i].getPrecio()*materiales[i].getVolumen()){
                 solucion.push_back(MaterialUsado(materiales[i], materiales[i].getVolumen()));
                 j -= materiales[i].getVolumen();
             }

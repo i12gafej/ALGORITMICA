@@ -203,32 +203,7 @@ CMakeFiles/main.dir/apartado1.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunc
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/linux/close_range.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/pstl/execution_defs.h
+  /usr/include/linux/close_range.h
 
 CMakeFiles/main.dir/apartado2.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/apartado2.cpp \
   /usr/include/stdc-predef.h \
@@ -288,6 +263,17 @@ CMakeFiles/main.dir/apartado2.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunc
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -314,9 +300,6 @@ CMakeFiles/main.dir/apartado2.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunc
   /usr/include/c++/11/cstdint \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/bits/localefwd.h \
@@ -424,33 +407,7 @@ CMakeFiles/main.dir/apartado2.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunc
   /usr/include/c++/11/bits/codecvt.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
-  /usr/include/c++/11/bits/fstream.tcc \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/pstl/execution_defs.h \
-  /usr/include/c++/11/limits
+  /usr/include/c++/11/bits/fstream.tcc
 
 CMakeFiles/main.dir/main.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/main.cpp \
   /usr/include/stdc-predef.h \
@@ -648,31 +605,9 @@ CMakeFiles/main.dir/main.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/
 
 /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/main.cpp:
 
-/home/yabiel/Documents/ALGORITMICA/p4/Enunciado/apartado2.hpp:
-
-/usr/include/c++/11/bits/unordered_map.h:
-
-/usr/include/c++/11/bits/node_handle.h:
-
-/usr/include/c++/11/bits/enable_special_members.h:
-
-/usr/include/c++/11/bits/hashtable.h:
-
-/usr/include/c++/11/ext/aligned_buffer.h:
-
-/usr/include/c++/11/unordered_map:
-
-/usr/include/c++/11/bits/invoke.h:
-
-/usr/include/c++/11/bits/uses_allocator.h:
-
 /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/materialUsado.hpp:
 
-/usr/include/c++/11/bits/uniform_int_dist.h:
-
-/usr/include/c++/11/bits/stl_algo.h:
-
-/usr/include/c++/11/utility:
+/home/yabiel/Documents/ALGORITMICA/p4/Enunciado/apartado2.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
@@ -706,8 +641,6 @@ CMakeFiles/main.dir/main.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/
 
 /usr/include/c++/11/bits/locale_facets.h:
 
-/usr/include/c++/11/bits/hashtable_policy.h:
-
 /usr/include/c++/11/bits/basic_ios.h:
 
 /usr/include/c++/11/streambuf:
@@ -715,8 +648,6 @@ CMakeFiles/main.dir/main.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/
 /usr/include/c++/11/stdexcept:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/include/c++/11/array:
 
 /usr/include/c++/11/system_error:
 
@@ -763,8 +694,6 @@ CMakeFiles/main.dir/main.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/
 /usr/include/c++/11/limits:
 
 /usr/include/alloca.h:
-
-/usr/include/c++/11/bits/stl_tempbuf.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
@@ -816,8 +745,6 @@ CMakeFiles/main.dir/main.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
-/usr/include/c++/11/tuple:
-
 /usr/include/c++/11/ext/new_allocator.h:
 
 /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/apartado1.cpp:
@@ -852,8 +779,6 @@ CMakeFiles/main.dir/main.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
-/usr/include/c++/11/bits/erase_if.h:
-
 /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/apartado1.hpp:
 
 /usr/include/c++/11/bits/functexcept.h:
@@ -861,8 +786,6 @@ CMakeFiles/main.dir/main.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/
 /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/apartado2.cpp:
 
 /usr/include/c++/11/bits/alloc_traits.h:
-
-/usr/include/c++/11/bits/stl_relops.h:
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
@@ -910,13 +833,9 @@ CMakeFiles/main.dir/main.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
-/usr/include/c++/11/pstl/glue_algorithm_defs.h:
-
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/c++/11/debug/debug.h:
-
-/usr/include/c++/11/bits/algorithmfwd.h:
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
@@ -940,10 +859,6 @@ CMakeFiles/main.dir/main.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
-/usr/include/c++/11/functional:
-
-/usr/include/c++/11/bits/stl_heap.h:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
@@ -954,8 +869,6 @@ CMakeFiles/main.dir/main.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/
 
 /usr/include/c++/11/clocale:
 
-/usr/include/c++/11/bits/std_function.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
@@ -965,8 +878,6 @@ CMakeFiles/main.dir/main.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/c++/11/bits/refwrap.h:
 
 /usr/include/stdint.h:
 
@@ -989,8 +900,6 @@ CMakeFiles/main.dir/main.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/
 /usr/include/c++/11/bits/ptr_traits.h:
 
 /usr/include/c++/11/bits/localefwd.h:
-
-/usr/include/c++/11/pstl/execution_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
@@ -1041,8 +950,6 @@ CMakeFiles/main.dir/main.cpp.o: /home/yabiel/Documents/ALGORITMICA/p4/Enunciado/
 /usr/include/c++/11/debug/assertions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/c++/11/algorithm:
 
 /usr/include/c++/11/exception:
 
