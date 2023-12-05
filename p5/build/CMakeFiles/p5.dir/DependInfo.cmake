@@ -14,8 +14,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/yabiel/Documents/ALGORITMICA/p5/vegas.cpp" "CMakeFiles/p5.dir/vegas.cpp.o" "gcc" "CMakeFiles/p5.dir/vegas.cpp.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
