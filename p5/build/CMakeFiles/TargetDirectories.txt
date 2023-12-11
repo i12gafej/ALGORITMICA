@@ -1,3 +1,0 @@
-/home/yabiel/Documents/ALGORITMICA/p5/build/CMakeFiles/p5.dir
-/home/yabiel/Documents/ALGORITMICA/p5/build/CMakeFiles/edit_cache.dir
-/home/yabiel/Documents/ALGORITMICA/p5/build/CMakeFiles/rebuild_cache.dir

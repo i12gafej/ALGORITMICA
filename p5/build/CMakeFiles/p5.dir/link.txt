@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/p5.dir/main.cpp.o CMakeFiles/p5.dir/backtracking.cpp.o CMakeFiles/p5.dir/vegas.cpp.o CMakeFiles/p5.dir/montecarlo.cpp.o -o p5 
