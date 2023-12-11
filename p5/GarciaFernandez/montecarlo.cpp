@@ -10,8 +10,6 @@
 #include <unistd.h> //para system("clear")
 using namespace std;
 
-void imprimir(vector<int> v);   
-
 void Montecarlo(){
     system("clear");
     cout << "Introduce el orden de la matriz: ";
@@ -105,23 +103,13 @@ bool verificarProductoMontecarlo(vector<vector<int>> A,vector<vector<int>> B,vec
     X = generarVectorX(n);
     productoMatrices2(X, A, XA);
     productoMatrices2(XA, B, XAB);
-    
-   
     productoMatrices2(X, C, XC);
-    
-    
     if(comprobarIgualdad(XAB, XC) == true){
         return true;
     }
     else{
         return false;
     }
-}
-void imprimir(vector<int> v){
-    for(int i = 0; i < v.size(); i++){
-        cout << v[i] << ", ";
-    }
-    cout << endl;
 }
 vector<int> generarVectorX(int n){
     std::random_device rd; 
